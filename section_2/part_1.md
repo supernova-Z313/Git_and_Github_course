@@ -6,7 +6,7 @@
 	* Github Desktop
 	* SourceTree
 	* Tower
-	* GitKraken
+	* GitKraken *
 	* Ungit
 3. GUI Clients:
 
