@@ -1,23 +1,15 @@
-<h1 align="center"> Part 2 </h1>
+<h1 align="center">Part 3</h1>
 
-**Configuring Git**
-You do not need to register for an account or anything, but you will need to provide:
--  Your name
--  Your email
+<h3> Terminal Crash  Course </h4>
 
-1. To configure the name that Git will associate with your work, run this command:
-	```cosole
-	git config --global user.name "Name"
-	```
-
-2. Do the same thing for your email using the following command:
-	```cosole
-	git config --global user.email 	EmailName@blah.com
-	```
-
-3. To see the registered name and email, we use the following commands:
-	```cosole
-	git config user.name
-	git config user.email
-	```
+| Command | Description | Options |
+|:------:|-----------|:---------:|
+| **ls** <directory/file_Name> | 	Use *ls* to to list the contents of your current directory | -a (to see all file (hidden file also)) |
+| **open** <directory/file_Name> (mac) // **xdg-open** . (linux) // **start** . (win) | Open current directory windows | None 
+| **clear** (Linux&Unix) // **cls** (win) | Clear the terminal | None |
+| **pwd** | (Print Working Directory) print the path to the working directory | None |
+| **cd** <directory_Name>| (Change Directory) use *cd* to change and move between directory's | . (current directory)// .. (one directory back)|
+| ‌**touch** <file_Name> | Use touch to create a file (or multiple) | None |
+| **mkdir** <directory_Name> | Will create a new directory | use "" if the name contain space |
+| **rm** <file_Name> | rm will delete a file or files (it permanently remove them) | -rf (use to delete a directory)(r = recursive, f = force) |
 
