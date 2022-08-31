@@ -10,7 +10,7 @@ This is useful for files you know you NEVER want to commit, including:
 - Log files
 - Dependencies & packages
 
-Create a file called .gitignore in the root of a repository.  Inside the file, we can write patterns to tell Git which files & folders to ignore:
+Create a file called **.gitignore** in the root of a repository.  Inside the file, we can write patterns to tell Git which files & folders to ignore:
 
 - filename will ignore file
 - .DS_Store will ignore files named .DS_Store

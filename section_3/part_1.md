@@ -24,3 +24,16 @@ graph LR
 A[Working Directory] -- git add --> B[Staging Area]
 B -- git commit --> C[Repository]
 ```
+
+#
+
+**Git Commit**
+We use the git commit command to actually commit changes from the staging area.
+When making a commit, we need to provide a commit message that summarizes the changes and work snapshotted in the commit
+
+#
+
+**Git Docs Reference**
+We can use [this](https://git-scm.com/docs) link to read Git Docs.
+*https://git-scm.com/docs*
+
