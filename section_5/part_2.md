@@ -44,6 +44,24 @@ git checkout -b <branch-name>
 If you make changes in a file and don't commit them, when you switch to another branch, all this information will be deleted, so we must commit or stash the changed information.
 Also, if you create a new file and do not commit it, the file will be transferred to any branch you switch to, until you commit it in one of the branches.
 
+<h3>Deleting</h3>
+
+To delete a branch, just use the following command:
+
+```cosole
+git branch -d <branch-name>
+```
+
+- To delete a branch, we must not be in that branch.
+- If we don't merge a branch, we should use -D flag to delete it.
+
+<h3>Renaming</h3>
+To change the name of a branch, we must be present in that branch and run the following command:
+
+```cosole
+git branch -m <branch-name>
+```
+
 #
 
 > Note:
