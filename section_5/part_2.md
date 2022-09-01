@@ -39,6 +39,10 @@ git checkout -b <branch-name>
 ```
 > Note: -b = boy or branch
 
+<h2>Warning</h2>
+
+If you make changes in a file and don't commit them, when you switch to another branch, all this information will be deleted, so we must commit or stash the changed information.
+Also, if you create a new file and do not commit it, the file will be transferred to any branch you switch to, until you commit it in one of the branches.
 
 #
 
