@@ -17,6 +17,6 @@
 | message | fix typo |
 
 > Each commit has a unique hash .
-> The parent is the hash value of the previous commit.
+> The parent is the hash value of the previous commit or commits.
 > First commit parent is none.
 
