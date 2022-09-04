@@ -52,7 +52,7 @@ index 72d1d5a..f2c8117 100644
 3. **Markers**
 
 	> --- a/rainbow.txt
-+++ b/rainbow.txt
+	   +++ b/rainbow.txt
 
 	File A and File B are each assigned a symbol.
 	- File A gets a minus sign (-)
@@ -62,12 +62,12 @@ index 72d1d5a..f2c8117 100644
 4. **Chunks**
 
 	> @@ -3,4 +3,5 @@ orange
- yellow
- green
- blue 
--purple
-+indigo
-+violet
+	    yellow
+	    green
+	    blue 
+	    -purple
+	    +indigo
+	    +violet
 
 	A diff won't show the entire contents of a file, but instead only shows portions or "chunks" that were modified.
 	A chunk also includes some unchanged lines before and after a change to provide some context.
@@ -89,11 +89,11 @@ index 72d1d5a..f2c8117 100644
 	lines that begin with + come from file B.
 	
 	> yellow
- green
- blue 
--purple
-+indigo
-+violet
+	    green
+	    blue 
+	    -purple
+	    +indigo
+ 	    +violet
 
 
 > Note: + sign does not indicate addition and only indicates changes from the second file and can indicate deletion of the contents of a line.
