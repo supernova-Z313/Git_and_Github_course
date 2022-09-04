@@ -68,4 +68,9 @@ index 72d1d5a..f2c8117 100644
 +violet
 
 
-
+* Chunk Header
+	Each chunk starts with a chunk header, found between @@ and @@.
+	From file a, 4 lines are extracted starting from line 3.
+	From file b, 5 lines are extracted starting from line 3
+	
+	> @@ -3,4 +3,5 @@
