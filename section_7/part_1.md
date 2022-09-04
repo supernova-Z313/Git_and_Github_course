@@ -54,4 +54,18 @@ index 72d1d5a..f2c8117 100644
 > --- a/rainbow.txt
 +++ b/rainbow.txt
 
-4.
+4. *Chunks*
+
+	A diff won't show the entire contents of a file, but instead only shows portions or "chunks" that were modified.
+	A chunk also includes some unchanged lines before and after a change to provide some context.
+
+> @@ -3,4 +3,5 @@ orange
+ yellow
+ green
+ blue 
+-purple
++indigo
++violet
+
+
+
