@@ -45,4 +45,13 @@ index 72d1d5a..f2c8117 100644
 	
 > index 72d1d5a..f2c8117 100644
 
-3. 
+3. *Markers*
+
+	File A and File B are each assigned a symbol.
+	- File A gets a minus sign (-)
+	- File B gets a plus sign (+)
+	
+> --- a/rainbow.txt
++++ b/rainbow.txt
+
+4.
