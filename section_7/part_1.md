@@ -74,3 +74,18 @@ index 72d1d5a..f2c8117 100644
 	From file b, 5 lines are extracted starting from line 3
 	
 	> @@ -3,4 +3,5 @@
+	
+* Changes
+	Every line that changed between the two files is marked with either a + or - symbol.
+	lines that begin with - come from file A.
+	lines that begin with + come from file B.
+	
+	> yellow
+ green
+ blue 
+-purple
++indigo
++violet
+
+
+> Note: + sign does not indicate addition and only indicates changes from the second file and can indicate deletion of the contents of a line.
