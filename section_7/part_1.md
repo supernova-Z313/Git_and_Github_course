@@ -33,11 +33,13 @@ index 72d1d5a..f2c8117 100644
 ```
 
 1. *Compared Files*
-
+	
+	> diff --git a/rainbow.txt b/rainbow.txt
+	
 	For each comparison, Git explains which files it is comparing. Usually this is two versions of the same file.
 	Git also declares one file as "A" and the other as "B".
 
-> diff --git a/rainbow.txt b/rainbow.txt
+
 
 2. *File Metadata*
 	
