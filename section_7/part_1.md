@@ -32,14 +32,17 @@ index 72d1d5a..f2c8117 100644
 +violet
 ```
 
-1. Compared Files
+1. *Compared Files*
 
 	For each comparison, Git explains which files it is comparing. Usually this is two versions of the same file.
 	Git also declares one file as "A" and the other as "B".
 
 > diff --git a/rainbow.txt b/rainbow.txt
 
-2. 
+2. *File Metadata*
+	
+	The first two numbers are the hashes of the two files being compared.  The last number is an internal file mode identifier.
+	
+> index 72d1d5a..f2c8117 100644
 
-
-
+3. 
