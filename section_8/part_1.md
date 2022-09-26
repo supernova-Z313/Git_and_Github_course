@@ -1,4 +1,4 @@
-<h1 align="center"> Git Stashing </h1>
+<h1 align="center"> Part 1 </h1>
 
 When we are in a branch and we make some changes and then we need to change the branch, but we don't want to commit the changes made, so 2 situations happen:
 1. changes come with us to the destination branch.
