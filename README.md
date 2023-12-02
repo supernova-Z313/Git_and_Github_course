@@ -1,1 +1,1 @@
-**This is a git and github course**
+**This is a git course**
