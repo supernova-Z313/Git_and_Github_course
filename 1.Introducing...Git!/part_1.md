@@ -1,7 +1,7 @@
 <h1 align="center">Part 1</h1>
 
 ### What is Git ? 
-*  **Version Control System** (VCS) :
+*  ***Version Control System*** **(VCS)** :
 	
 * Version control is software that tracks and *manages changes* to files over time.
 	
