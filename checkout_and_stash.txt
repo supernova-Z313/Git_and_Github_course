@@ -1,0 +1,20 @@
+checkout :  the checkout command lets us to navigate between the branches that created by (git branch <branch_name>) or visit commits of a projects
+checkout commands:
+git checkout <branch_name> --> switch to an existing branch
+git checkout <commit_id>  --> switch to a certain commit 
+git checkout <branch_name> --> switch to last commit of the branch
+checkout flags : 
+git checkout -b <branch_name>  -->  create branch_name and switch to that branch.
+git checkout -f <branch_name>  --> use to ignore local changes and any untracked files or directories that are in the way.
+git checkout -m <branch_name> --> a three-way merge between the current branch, local modifications, and your destination. and you will be on your destination.
+
+stash : it temporarily saves the changes without commit and you can reapply whenever you need actually we use this when we are not ready to commit
+stash commands :
+git stash --> save changes and returns to last commit and creates an id (like : stash@{0})
+git stash pop --> reaplly your last stash changes
+git stash list --> lists your stash
+git stash drop@{n} -->(instead of <n> type number of stash) to remove stash
+stash flags :
+git stash -u --> this will stash untracked + tracked files
+git stash -a --> this will stash untracked + trackes + ignored files
+git stash -p --> you can see the diffrence between stasshes
