@@ -18,9 +18,9 @@
 
 4. The Command Line
 
-	  Pros   | Cons
-	------- | --------
-  	Git is a command-line tool.  All the documentation and resources online will refer to the command-line | Not beginner-friendly.  At All. Can be difficult to learn and remember the commands at first.
+	|  Pros   | Cons |
+	|------- | -------- |
+  	| Git is a command-line tool.  All the documentation and resources online will refer to the command-line | Not beginner-friendly.  At All. Can be difficult to learn and remember the commands at first.
   	The command-line can be way faster once you get comfortable with it! |  Even for some practiced users, the command-line interface is just not a good experience.  It's really a matter of preference.
 	  Some of the more advanced Git features are only available on the command-line |   
 	  The commands are always the same, no matter what machine you are on! |
